@@ -201,16 +201,6 @@ body {
     margin-top: 3px;
 }
 
-.new {
-    display: flex;
-    flex-wrap: wrap;
-    width: 150px;
-    height: 150px;
-    gap: 14px;
-    margin-top: 20px;
-    padding: 10px;
-}
-
 .new-arrival__container {
     position: relative;
 }
@@ -229,6 +219,7 @@ body {
     margin-top: 20px;
     display: flex;
     gap: 10px;
+    overflow-x: scroll;
 }
 
 .new-arrival__container img {
@@ -248,7 +239,7 @@ body {
     border-radius: 10px;
     position: absolute;
     bottom: 20px;
-    left: 10px;
+    left: 20px;
 }
 
 .Mostwanted {
@@ -302,7 +293,7 @@ body {
 }
 
 .offer-container img {
-    width: 300px;
+    width: 220px;
     height: 170px;
 }
 
@@ -626,6 +617,9 @@ body {
         padding: 10px;
         left: 10px;
     }
+    #newarrivals h1,#MW h1{
+        font-size: 30px;
+    }
 
     .new-arrival__container img {
         position: relative;
@@ -905,9 +899,10 @@ body {
         justify-content: center;
     }
     .slider{
+        left: 30px;
         overflow: hidden;
         display: flex;
-        width: 100%;
+        width: 96%;
         height: 60%;
         position: relative;
         border-radius: 5px;
@@ -917,7 +912,8 @@ body {
         transition: 2s;
     }
     .slider-image{
-        width: 100vw;
+        width: 100%;
+        height: 500px;
     }
     .slider-left-button{
         position: absolute;
