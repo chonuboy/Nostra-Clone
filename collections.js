@@ -3,6 +3,15 @@ var ad = document.querySelector(".add__popup")
 adclose.addEventListener("click", function () {
     ad.classList.remove("add__popup")
 })
+var openmenu = document.querySelector(".nav__menu__icon")
+var navmenu = document.querySelector(".navmenu")
+var closemenu = document.querySelector(".close__menu")
+openmenu.addEventListener("click", function () {
+    navmenu.style.left = "0"
+})
+closemenu.addEventListener("click", function () {
+    navmenu.style.left = "-50%"
+})
 var filterarr = []
 var boxes = document.getElementsByName("box")
 console.log(boxes)
