@@ -445,11 +445,11 @@ body {
     height: 22px;
     position: absolute;
     top: 65px;
-    right: 50px;
+    right: 60px;
 }
 .newsletter__c1 {
     font-size: 8px;
-    margin-top: 5px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
