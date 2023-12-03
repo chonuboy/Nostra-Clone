@@ -386,6 +386,11 @@ body {
     flex-direction: column;
     font-size: 12px;
 }
+.filter input{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
 
 .filter h2{
     margin-top: 10px;
@@ -405,7 +410,7 @@ body {
     font-size: 8px;
     position: absolute;
     top: 150px;
-    left: 100px;
+    left: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -419,7 +424,7 @@ body {
 
 .search__box {
     height: 10px;
-    left: 100px;
+    left: 80px;
     border-radius: 10px;
     position: absolute;
     top: 100px;
@@ -433,7 +438,7 @@ body {
     height: 22px;
     position: absolute;
     top: 105px;
-    left: 420px;
+    right: 80px;
 }
 .newsletter__c1 {
     font-size: 8px;
