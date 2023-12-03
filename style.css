@@ -134,8 +134,13 @@ body {
    padding-bottom: 10px;
    margin-top: 10px;
    color: #1D232C;
+   border-radius: 5px;
+   border: none;
 }
-
+.slider-content button img{
+    position: relative;
+    top: 5px;
+}
 .brand__icons img {
     width: 18px;
     height: 18px;

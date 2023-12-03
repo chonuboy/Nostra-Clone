@@ -48,7 +48,6 @@ boxes.forEach((box) => {
     })
 })
 
-
 function update() {
     var productList = document.querySelectorAll(".product__container")
     for (var i = 0; i < productList.length; i++) {
