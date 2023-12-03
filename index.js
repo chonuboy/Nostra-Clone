@@ -54,7 +54,7 @@ function update() {
         var check = false
         var product = productList[i]
         console.log(product)
-        var temp = product.querySelector("tags").innerHTML
+        var temp = product.querySelector("specs").innerHTML
         console.log("elemen" + temp)
         const tempFilterArray = temp.split(',');
         console.log("tempfilterarray" + tempFilterArray)
