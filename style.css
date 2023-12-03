@@ -34,6 +34,7 @@ body {
     position: relative;
     right: 5px;
     display: flex;
+    width: 100%;
     justify-content: center;
     padding: 5px;
     gap: 50px;
@@ -47,7 +48,6 @@ body {
     background-color: white;
     top: 0;
     z-index: 30;
-    
 }
 
 .navbar div {
@@ -381,7 +381,7 @@ body {
 
 .filter {
     position: relative;
-    left: 10px;
+    left: 4px;
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -389,13 +389,13 @@ body {
 .filter input{
     position: relative;
     top: 14px;
-    right: 250px;
+    right: 240px;
 }
 
 .vl {
     position: absolute;
     top: 80px;
-    left: 120px;
+    left: 90px;
     border-left: 5px solid black;
     height: 500px;
 }
@@ -405,7 +405,7 @@ body {
     font-size: 8px;
     position: absolute;
     top: 150px;
-    left: 140px;
+    left: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -419,7 +419,7 @@ body {
 
 .search__box {
     height: 10px;
-    left: 140px;
+    left: 100px;
     border-radius: 10px;
     position: absolute;
     top: 100px;
@@ -433,7 +433,7 @@ body {
     height: 22px;
     position: absolute;
     top: 105px;
-    left: 458px;
+    left: 420px;
 }
 .newsletter__c1 {
     font-size: 12px;
@@ -473,6 +473,7 @@ body {
 }
 
 .Contact {
+    width: 65%;
     background-color: #1d232c;
     color: #e2e1db;
     padding: 30px;
@@ -490,7 +491,7 @@ body {
 
 .inp1 {
     height: 25px;
-    width: 300px;
+    width: 100%;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -498,7 +499,7 @@ body {
 
 .inp2 {
     height: 100px;
-    width: 300px;
+    width: 100%;
     border-radius: 5px;
     border: none;
     outline: none;
