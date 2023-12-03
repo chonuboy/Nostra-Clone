@@ -35,8 +35,8 @@ body {
     right: 5px;
     display: flex;
     justify-content: center;
-    gap: 50px;
     padding: 5px;
+    gap: 50px;
     background-color: #1d232c;
     color: #e2e1db;
     font-size: 8px;
@@ -87,6 +87,9 @@ body {
     padding: 20px;
     gap: 10px;
     transition: all ease 1s;
+}
+.navmenu ul li:hover{
+    text-decoration: underline;
 }
 .slider{
     overflow: hidden;
@@ -375,6 +378,7 @@ body {
 }
 
 .filter div {
+    margin-bottom: 20px;
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -386,7 +390,6 @@ body {
     left: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     font-size: 12px;
 }
 .filter input{
