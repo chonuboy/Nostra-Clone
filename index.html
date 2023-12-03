@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nostra</title>
+</head>
+
+<body>
+    <!--Popup-->
+    <div class="none add__popup">
+        <p>Sign up and <span sty><b> GET 20% OFF</b></span> for your Order</p>
+        <p id="popup__close" style="cursor: pointer;">x</p>
+    </div>
+    <!--Navbar-->
+    <section class="navbar">
+        <div>
+            <h1 style="font-weight: 900;color:  #1d232c;">Nostra</h1>
+            <ul class="navbar ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#newarrivals">New Arrival</a></li>
+                <li><a href="#MW">Most Wanted</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <svg class="nav__menu__icon" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+                viewBox="0 0 50 50">
+                <path
+                    d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z">
+                </path>
+            </svg>
+        </div>
+    </section>
+    <section>
+        <div class="navmenu">
+            <div style="text-align: right;">
+                <p class="close__menu" style="cursor: pointer;">x</p>
+            </div>
+            <ul style="display: flex;flex-direction: column;gap: 40px;list-style: none;">
+                <li><a href="index.html" style="color: #e2e1db;text-decoration: none;">Home</a></li>
+                <li><a href="#newarrivals" style="color: #e2e1db; text-decoration: none;">New Arrival</a></li>
+                <li><a href="#MW" style="color: #e2e1db; text-decoration: none;">Most Wanted</a></li>
+                <li><a href="collections.html" style="color: #e2e1db;text-decoration: none;">Collections</a></li>
+                <li><a href="" style="color: #e2e1db;text-decoration: none;">Contact Us</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--Slider-->
+    <div class="slider" style="background-color: black;color: white;">
+        <div class="slider-left-button">
+            <img src="./Images/arrow-left.png" id="slider-left-activate"></img>
+        </div>
+
+        <div class="slider-content">
+            <h1>Level up your style with our</h1>
+            <h4>Summer Collections</h4> 
+            <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+
+        <div class="slider-image-container">
+            <img src="./Images/boys.jpg" class="slider-image"  alt="" style="width: 100%;height: 500px;">
+            <img class="slider-image" src="./Images/boys2.jpg" alt="" style="width: 500px;height: 500px;">
+            <img class="slider-image" src="./Images/boys3.jpg" alt="" style="width: 100%; height: 500px;">
+            <img class="slider-image" src="./Images/boys4.jpg" alt="" style="height: 500px;">
+        </div>
+
+        <div class="slider-right-button">
+            
+            <img src="./Images/arrow-right.png" id="slider-right-activate"></img>
+        </div>
+    </div>
+    <!--Brands-->
+    <section>
+        <h2>Brands</h2>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+            <div style="display: flex;flex-direction: column;align-items: center;" class="brand__icons">
+                <img src="./Images/puma.png" alt="Puma">
+                <p>Puma</p>
+            </div>
+            <div style="display: flex;flex-direction: column;align-items: center;" class="brand__icons">
+                <img src="./Images/adidas.png" alt="Puma">
+                <p>Adidas</p>
+            </div>
+            <div style="display: flex;flex-direction: column;align-items: center;" class="brand__icons">
+                <img src="./Images/simple.png" alt="Puma">
+                <p>Simple</p>
+            </div>
+            <div style="display: flex;flex-direction: column;align-items: center;" class="brand__icons">
+                <img src="./Images/leaves.png" alt="Puma">
+                <p>Leaves</p>
+            </div>
+            <div style="display: flex;flex-direction: column;align-items: center;" class="brand__icons">
+                <img src="./Images/puma.png" alt="Puma">
+                <p>Behance</p>
+            </div>
+            <div style="display: flex;flex-direction: column;align-items: center;" class="brand__icons">
+                <img src="./Images/twitch.png" alt="Puma">
+                <p>Twitch</p>
+            </div>
+        </div>
+    </section>
+    <!--Specs-->
+    <section class="reveal">
+        <section>
+            <div class="spec__desc">
+                <div>
+                    <h1>We Provide Best Customer Experiences</h1>
+                </div>
+                <p>|| We ensure that our customer have the best shopping experience</p>
+            </div>
+        </section>
+        <!--Highlights-->
+        <section class="highlight">
+            <div class="highlight__div">
+                <img src="./Images/check-mark.png" alt="Quick">
+                <h4>Original Products</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusantium?</p>
+            </div>
+
+            <div class="highlight__div">
+                <img src="./Images/smiley.png" alt="Smile">
+                <h4>Satisfaction Guarantee</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusantium?</p>
+            </div>
+
+            <div class="highlight__div">
+                <img src="./Images/flying-witch-on-a-broom.png" alt="Fast">
+                <h4>New Arrival Everyday</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusantium?</p>
+            </div>
+
+            <div class="highlight__div">
+                <img src="./Images/fast-delivery.png" alt="Fast">
+                <h4>Fast & Free Shipping</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusantium?</p>
+            </div>
+        </section>
+        <!--New arrivals-->
+        <section id="newarrivals" style="margin-top: 20px;">
+            <h1>New Arrivals</h1>
+            <div class="new-arrival" style="margin-top: 10px;">
+                <div class="new-arrival__container">
+                    <img src="./Images/s1.jpg" alt="Shirt">
+                    <div class="layer"></div>
+                    <button> Shop Now <img src="./Images/r2.png" alt="Right" style="height: 15px;width: 15px;"></button>
+                </div>
+
+                <div class="new-arrival__container">
+                    <img src="./Images/s2.jpg" alt="Shirt">
+                    <div class="layer"></div>
+                    <button> Shop Now <img src="./Images/r2.png" alt="Right" style="height: 15px;width: 15px;"></button>
+                </div>
+
+                <div class="new-arrival__container">
+                    <img src="./Images/s3.jpg" alt="Shirt">
+                    <div class="layer"></div>
+                    <button> Shop Now <img src="./Images/r2.png" alt="Right" style="height: 15px;width: 15px;"></button>
+                </div>
+
+                <div class="new-arrival__container">
+                    <img src="./Images/s4.jpg" alt="Shirt">
+                    <div class="layer"></div>
+                    <button> Shop Now <img src="./Images/r2.png" alt="Right" style="height: 15px;width: 15px;"></button>
+                </div>
+        </section>
+        <section id="MW" style="margin-top: 20px;">
+            <h1>Most Wanted</h1>
+            <div class="Mostwanted" style="margin-top: 20px;">
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s3.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s1.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s3.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s4.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s2.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s1.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s3.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+
+                <div class="Mostwanted-Container">
+                    <div>
+                        <img src="./Images/s2.jpg" alt="Shirt">
+                        <h5><img src="./Images/white-heart.png" alt="" class="white"></h5>
+                    </div>
+                    <p>Sale</p>
+                </div>
+            </div>
+        </section>
+        <!--Offer-->
+        <section class="offer reveal">
+            <div class="offer-container">
+                <img src="./Images/boys.jpg" alt="Boys">
+                <div class="offer-text">
+                    <h1>Limited Offer</h1>
+                    <p>35% OFF on this for the first 30 Customers</p>
+                    <button> Shop Now <img src="./Images/r2.png" alt="Right" style="height: 15px;width: 15px;"></button>
+                </div>
+            </div>
+        </section>
+        <!--News Letter Section-->
+        <section style="text-align: center;margin-top: 30px;" class="newsletter">
+            <h3>Join Our News Letter</h3>
+            <p>Signup For Our email newspaper to get exclusive
+                discounts,updates,and more</p>
+            <input type="text">
+            <button>Subscribe <img src="./Images/r1.png" alt="Right">
+            </button>
+        </section>
+        <!--Footer-->
+        <section>
+            <div class="Footer">
+            <h2>Nostra</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim sit libero nesciunt laborum. Quaerat,
+                dolore dolorem.</p>
+            <div style="display: flex;gap: 50px;">
+                <img src="./Images/icons8-instagram-50.png" alt="">
+                <img src="./Images/icons8-twitter-50.png" alt="">
+                <img src="./Images/icons8-facebook-50.png" alt="">
+            </div>
+            <p>&copy; 2023 Nostra.com</p>
+            </div>
+        </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
