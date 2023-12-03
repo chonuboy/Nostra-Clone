@@ -1,3 +1,8 @@
+var adclose = document.getElementById("popup__close")
+var ad = document.querySelector(".add__popup")
+adclose.addEventListener("click", function () {
+    ad.classList.remove("add__popup")
+})
 var filterarr = []
 var boxes = document.getElementsByName("box")
 console.log(boxes)
@@ -15,9 +20,6 @@ boxes.forEach((box) => {
             filterarr = filterarr.filter(item => item !== e.target.value);
             update()
         }
-
-
-
     })
 })
 
