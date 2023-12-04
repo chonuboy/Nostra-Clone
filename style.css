@@ -155,17 +155,17 @@ body {
 
 .brand__icons,
 .spec__desc h1 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .spec__desc div {
     display: flex;
     flex-wrap: wrap;
-    width: 60px;
+    width: 100px;
 }
 
 .spec__desc p {
-    font-size: 9px;
+    font-size: 8px;
 }
 
 .spec__desc {
@@ -444,7 +444,7 @@ body {
     height: 22px;
     position: absolute;
     top: 65px;
-    right: 80px;
+    right: 70px;
 }
 .newsletter__c1 {
     font-size: 8px;
